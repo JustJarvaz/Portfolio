@@ -1,0 +1,65 @@
+/*background, color, font-family, font-size,
+ height, margin, padding, text-align
+Semantic containers like main, article, and footer
+
+Styled links using pseudo-classes
+
+Comments throughout your HTML and CSS that explain your code -->*/
+
+h3 {
+  font-family: Georgia, cursive;
+}
+
+.alt-bg {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 1%;
+}
+p {
+  font-size: large;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid rgb(209, 181, 25);
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+ /*Styling an img to be rounded with a colored border and to fit any page size*/
+  }
+
+hr {
+  
+  border: 5px solid rgb(209, 181, 25);
+  border-radius: 1px;
+}
+
+a {
+  color: rgb(209, 181, 25);
+  /*making my links colorful*/
+}
+
+ul {
+  text-align: start
+}
+
+b {
+  font-size: 25px;
+  color: rgb(209, 181, 25);
+}
+
+  footer > a:hover, a:active {
+  background-color: rgb(143, 9, 9);
+  color: white;
+ }
+
+footer a {
+  
+  
+  font-size: 25px;
+  padding: 1px;
+  margin: 2%;
+  
+}
