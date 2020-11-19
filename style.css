@@ -1,64 +1,78 @@
-
-
-
 h3 {
-  font-family: Georgia, cursive;
+	font-family: Georgia, cursive;
 }
 
 .alt-bg {
-  text-align: center;
-  background-color: black;
-  color: white;
-  margin: auto;
-  padding: 1%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: auto;
+	padding: 1%;
 }
 
-/*Make all paragraph font large for better reading ability*/
 p {
-  font-size: large;
+  /*Make all paragraph font large for better reading ability*/
+	font-size: large;
 }
 
 img {
-  border-radius: 50%;
-  border: 3px solid rgb(209, 181, 25);
-  padding: 10px;
-  height: 300px;
-  width: 300px;
- /*Styling an img to be rounded with a colored border and to fit any page size*/
-  }
+   /*Styling an img to be rounded with a colored border and to fit any page size*/
+	border-radius: 50%;
+	border: 3px solid rgb(209, 181, 25);
+	padding: 10px;
+	height: 300px;
+	width: 300px;
+	/*Styling an img to be rounded with a colored border and to fit any page size*/
+}
 
 hr {
-  /*Style my horizontal rules to draw a line between sections*/
-  border: 5px solid rgb(209, 181, 25);
-  border-radius: 1px;
+    /*Style my horizontal rules to draw a line between sections*/
+	border: 5px solid rgb(209, 181, 25);
+	border-radius: 1px;
 }
 
 a {
-  color: rgb(209, 181, 25);
-  /*making my links colorful*/
+    /*making my links colorful*/
+	color: rgb(209, 181, 25);
+	/*making my links colorful*/
 }
 
 ul {
- /* have my list text aligned to the left so its not centered like the paragraphs and far away from each dot*/
-  text-align: start
+   /* have my list text aligned to the left so its not centered like the paragraphs and far away from each dot*/
+	text-align: start
 }
 
 b {
- /*Take those <b> tags and style them to make the first letter of each <p> tag a certain color and size*/
-  font-size: 25px;
-  color: rgb(209, 181, 25);
+   /*Take those <b> tags and style them to make the first letter of each <p> tag a certain color and size*/
+	font-size: 25px;
+	color: rgb(209, 181, 25);
 }
 
-  footer > a:hover, a:active {
-   /*This turns the links within the footer a certain color when I hover over them with the cursor and make the text white*/
-  background-color: rgb(143, 9, 9);
-  color: white;
- }
+footer>a:hover,
+a:active {
+     /*This turns the links within the footer a certain color when I hover over them with the cursor and make the text white*/
+	background-color: rgb(143, 9, 9);
+	color: white;
+}
 
 footer a {
-  /* make the link text in the footer larger and add  more space between each one*/
-  
-  font-size: 25px;
-  padding: 1px;
-  margin: 2%;
+    /* make the link text in the footer larger and add  more space between each one*/
+	font-size: 25px;
+	padding: 1px;
+	margin: 2%;
+}
+
+main article {
+  /*add a border around my list*/
+	border-style: solid;
+	border-color: rgb(209, 181, 25);
+	border-width: 5px;
+}
+
+main h4 {
+  /*add a border around my h4 header*/
+	border-style: outset;
+	padding: 1px;
+	margin: -5px;
+	border-color: rgb(209, 181, 25);
 }
