@@ -37,7 +37,7 @@ a {
 	/*making my links colorful*/
 }
 
-ul {
+ul, ol {
    /* have my list text aligned to the left so its not centered like the paragraphs and far away from each dot*/
 	text-align: start
 }
