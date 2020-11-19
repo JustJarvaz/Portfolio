@@ -1,10 +1,5 @@
-/*background, color, font-family, font-size,
- height, margin, padding, text-align
-Semantic containers like main, article, and footer
 
-Styled links using pseudo-classes
 
-Comments throughout your HTML and CSS that explain your code -->*/
 
 h3 {
   font-family: Georgia, cursive;
@@ -17,6 +12,8 @@ h3 {
   margin: auto;
   padding: 1%;
 }
+
+/*Make all paragraph font large for better reading ability*/
 p {
   font-size: large;
 }
@@ -31,7 +28,7 @@ img {
   }
 
 hr {
-  
+  /*Style my horizontal rules to draw a line between sections*/
   border: 5px solid rgb(209, 181, 25);
   border-radius: 1px;
 }
@@ -42,21 +39,24 @@ a {
 }
 
 ul {
+ /* have my list text aligned to the left so its not centered like the paragraphs and far away from each dot*/
   text-align: start
 }
 
 b {
+ /*Take those <b> tags and style them to make the first letter of each <p> tag a certain color and size*/
   font-size: 25px;
   color: rgb(209, 181, 25);
 }
 
   footer > a:hover, a:active {
+   /*This turns the links within the footer a certain color when I hover over them with the cursor and make the text white*/
   background-color: rgb(143, 9, 9);
   color: white;
  }
 
 footer a {
-  
+  /* make the link text in the footer larger and add  more space between each one*/
   
   font-size: 25px;
   padding: 1px;
